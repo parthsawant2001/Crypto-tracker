@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+/* * {
+    background-color: #0d0738;
+    color: #ffd700;
+} */
+
+.gradient {
+    background: linear-gradient(91.57deg, #ea52f8 0%, #0066ff 81.01%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-gradient {
+    background: linear-gradient(91.57deg, #ea52f8 0%, #0066ff 81.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-track {
+    background: #0d0738;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar-thumb {
+    background: #1c1456;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
+
+
+/* .border-gradient {
+    border: 2px solid #000000;
+   
+    border-radius: 10px;
+    border: double 2px transparent;
+    background-image: linear-gradient(white, white) linear-gradient(91.57deg, #ea52f8 0%, #0066ff 81.01%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+} */
+
+
+/* .border-gradient {
+    border: 2px solid #5147a6;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* linear-gradient(91.57deg, #ea52f8 0%, #0066ff 81.01%); */
+
+
+/* 
+#a1abff header
+#818ad5 subhead
+#6971b6 tertiary txt
+#3a4179 accent
+#080d38 card
+#00052e bg */
