@@ -127,14 +127,3 @@ const CoinsTable = () => {
 };
 
 export default CoinsTable;
-
-{
-  /* <td
-align="right"
-style={{ color: profit > 0 ? "rgb(14,203,129)" : "red" }}
-className="py-4 px-6"
->
-{profit && "+"}
-{row.price_change_percentage_24h.toFixed(2)}%
-</td> */
-}
